@@ -3,13 +3,13 @@ This project is a simple piano based on the diatonic scale using the PIC18F4550.
 
 Schematic:
 ![Schematics](https://i.ibb.co/q503wxX/asm.png)
-The frequencies were calculated based on the equal temperament scale, with A440 reference. Each semi-tone step is calculated using: $2^{1/12}$
+The frequencies were calculated based on the equal temperament scale, with A440 reference. Each semi-tone step is calculated using the <img src="https://render.githubusercontent.com/render/math?math=2^{1/12}"> factor.
 
-$$ 
-f(\text{G\# / Ab}) = 440 \times 2^{-1/12} = 415.30 \text{ Hz} \\ 
-f(\text{A}_{440}) = 440 \times 2^{0/12} = 440.00 \text{ Hz}\\
-f(\text{A\# / Bb}) = 440 \times 2^{1/12} = 466.16 \text{ Hz} 
-$$
+<img src="https://render.githubusercontent.com/render/math?math=f(%5Ctext%7BG%5C%23%20%2F%20Ab%7D)%20%3D%20440%20%5Ctimes%202%5E%7B-1%2F12%7D%20%3D%20415.30%20%5Ctext%7B%20Hz%7D%20">
+
+<img src="https://render.githubusercontent.com/render/math?math=f(%5Ctext%7BA%7D_%7B440%7D)%20%3D%20440%20%5Ctimes%202%5E%7B0%2F12%7D%20%3D%20440.00%20%5Ctext%7B%20Hz%7D">
+
+<img src="https://render.githubusercontent.com/render/math?math=f(%5Ctext%7BA%5C%23%20%2F%20Bb%7D)%20%3D%20440%20%5Ctimes%202%5E%7B1%2F12%7D%20%3D%20466.16%20%5Ctext%7B%20Hz%7D">
 
 Resulting in the following frequencies notes:
 |Note| Frequency (Hz) |
