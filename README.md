@@ -27,3 +27,6 @@ Resulting in the following frequencies notes:
 
 The signal was generated using the PIC's timer 0  with the PRESCALER.
 
+
+### Acknowledgement 
+The template was designed by Ing. Alejandro Vicente Lugo Silva from Acad. Computación ICE - ESIME Zac. Thanks to him for being a great and inspiring teacher.
