@@ -1,6 +1,8 @@
 # PIC-Piano
 This project is a simple piano based on the diatonic scale using the PIC18F4550.
 
+The project was compiled using MPLABX and loaded to the PIC with the [Mi_HID Bootloader - Firmware for PIC18 Non-J Devices](https://github.com/mentatpsi/Microchip/tree/master/USB/Device%20-%20Bootloaders/HID/Firmware%20-%20PIC18%20Non-J)
+
 Schematic:
 ![Schematics](https://i.ibb.co/q503wxX/asm.png)
 The frequencies were calculated based on the equal temperament scale, with A440 reference. Each semi-tone step is calculated using the <img src="https://render.githubusercontent.com/render/math?math=2^{1/12}"> factor.
@@ -23,5 +25,5 @@ Resulting in the following frequencies notes:
 |B|493|
 |C|523|
 
-The signal was generated using the PIC's timer 0  withe the PRESCALER.
+The signal was generated using the PIC's timer 0  with the PRESCALER.
 
